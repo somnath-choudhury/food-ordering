@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#main-div {
+    display: flex;
+    height: 100vh;
+}
+
+#left-div {
+    width: 22%;
+    background-color: #0C0E10;
+    height: 100vh;
+    flex-shrink: 0;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#right-div {
+    flex: 1;
+    flex-direction: column;
+    background-color: #151a1f;
+    height: 100vh;
+    overflow-y: auto;
+    gap: 50px;
+}
+
+hr {
+    display: block;
+    border: 1px solid #515050;
+}
+
+#big-logo {
+    text-align: center;
+}
+
+#big-logo img {
+    width: 70%;
+    height: auto;
+}
+
+#restaurant-menu {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#slogan {
+    color: #FF2424;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#quick-links p{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#about-us p{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+li {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#navbar {
+        width: 78%;
+        height: 73px;
+        background-color: #191D20;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        gap: 10px;
+        padding-left: 10px;
+}
+
+#search-input {
+    width: 600px;
+    height: 46px;
+    background-color: #272A30;
+    color: #878787;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: none;
+    padding: 0 40px;
+}
+
+#red-btn {
+    height: 46px;
+    width: 116px;
+    background-color: #FF2424;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#small-logo{
+    width: 58px;
+    height: auto;
+    margin-right: 15px;
+}
+
+#banner {
+    padding: 20px;
+    margin-top: 66px;
+}
+
+#hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 30px;
+}
+
+#menu {
+    padding-left: 20px;
+}
+
+#menu-heading {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-card {
+    background-color: #56404018;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.menu-card img {
+    border-radius: 6px;
+    object-fit: cover;
+}
